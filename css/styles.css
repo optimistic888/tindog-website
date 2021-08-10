@@ -1,0 +1,208 @@
+
+
+#title{
+
+    background-color: rgb(209, 65, 65);
+    color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+
+   font-family: "Montserrat";
+}
+/* h2{
+    
+    font-size: 3rem;
+   line-height: 1.5;
+
+} */
+
+.big-heading{
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #6b6767;
+}
+
+.container-fluid{
+    padding: 3% 12%;
+}
+
+/* Navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+      padding: 0px  18px;
+
+} 
+.nav-link{
+
+    font-size: 1.1rem;
+    font-family: "Ubuntu";
+}
+/* Buttons */
+
+.Download-button{
+    margin-top: 28px;
+}
+/* Title-image */
+
+.title-image{
+
+   max-width:60%;
+    transform: rotate(24deg);
+    margin-left: 100px;
+    
+}
+.timage{
+    position: relative;
+    
+}
+/* features */
+#features{
+    background-color: azure;
+    
+    position: relative;
+    
+    padding: 7% 15%;
+    margin-top: -280px;
+}
+.feature{
+
+    text-align: center;
+    padding :6%;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+
+
+/* font awesome */
+.fas{
+    padding-bottom: 10%;
+
+}
+.icon{
+    color: rgb(211, 107, 104);
+
+}
+.icon:hover{
+
+    color:rgb(209, 65, 65);
+}
+
+#testimonials{
+    padding: 10% 15%;
+     background-color: rgb(211, 107, 104);
+     text-align: center;
+     color: #fff;
+  
+
+}
+.testimonial-image{
+
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#press{
+   background-color:rgb(211, 107, 104);
+   padding-bottom: 6%;
+   text-align: center;
+}
+.press-logo{
+
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+padding: 3% 2%;
+
+}
+.price-text{
+    font-size: 3rem;
+   line-height: 1.5;  
+}
+
+ /* Call to Action  */
+#cta{
+   
+    background-color:rgb(209, 65, 65) ;
+    text-align: center;
+    height: 500px;
+    
+   
+}
+.ctahead{
+    font-family: "Montserrat";
+  
+    color: azure;
+     padding :5% 22%;
+     font-size: 3rem;
+     line-height: 1.5;
+     margin-top: 50px;
+}
+.ctabuttons{
+   margin-right: 20px;
+
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    height:350px;
+}
+
+.fs{
+    padding: 0% 1%;
+    margin-top: 170px ;
+}
+
+
+
+
+@media (max-width:1028px)
+{
+    #title{
+        text-align: center;
+    }
+.title-image{
+
+ transform: rotate(0deg);
+ padding-top: 30px;
+ margin-left: 0px;
+
+}
+#features{
+    margin-top: 0px;
+}
+
+}
+
